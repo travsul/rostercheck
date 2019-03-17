@@ -1,4 +1,5 @@
-package com.rostercheck.oauth
+package com.rostercheck
+package oauth
 
 import java.util.UUID
 

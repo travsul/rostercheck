@@ -25,7 +25,7 @@ object Guild {
     }
   }
 
-  def getRequestUri(realm: String, name: String, locale: String, accessToken: String): IO[Uri] = {
+  private[this] def getRequestUri(realm: String, name: String, locale: String, accessToken: String): IO[Uri] = {
     val location: String = locale match {
       case "en-US" => "us"
       case _       => "us"

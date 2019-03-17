@@ -44,7 +44,7 @@ object Members {
 
 case class Character(
   name: String,
-  realm: String,
+  realm: Option[String],
   battlegroup: String,
   cclass: Int,
   race: Int,
